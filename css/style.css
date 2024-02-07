@@ -5,3 +5,15 @@
 .img-circle{
     border-radius: 50%;
 }
+
+.bg-footer{
+    background-color: #6c757e;
+}
+
+.bg-menu{
+    background-color: rgb(229, 250, 233);
+}
+
+.text-prueba{
+    color: rgb(29, 117, 209);
+}
