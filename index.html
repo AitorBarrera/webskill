@@ -43,11 +43,12 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#modalregistro">Registrate</a>
+                            <div class="nav-link cursor-pointer" data-bs-toggle="modal" data-bs-target="#modalregistro"> <a href="#" class="text-decoration-none text-black">Registrate</a></div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#modallogin">Inicia
-                                sesión</a>
+                            <div class="nav-link cursor-pointer" data-bs-toggle="modal" data-bs-target="#modallogin">
+                                <a href="#" class="text-decoration-none text-black">Inicia
+                                    sesión</a></div>
                         </li>
                     </ul>
                 </div>
@@ -58,13 +59,13 @@
         <!--Carrusel-->
         <div class="container my-4">
             <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
-                <ol class="carousel-indicators">
+                <ol class="carousel-indicators list-unstyled">
                     <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
-                        aria-label="First slide"></li>
-                    <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
-                    <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
-                    <li data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="Fourth slide"></li>
-                    <li data-bs-target="#carouselId" data-bs-slide-to="4" aria-label="Fifth slide"></li>
+                    ></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="1" ></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="3" ></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="4"></li>
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active" data-bs-interval="2000" >
@@ -144,12 +145,12 @@
 
             <div class="row align-content-center justify-content-center">
 
-                <div class="col-12 col-md-2 px-5 py-1">
+                <div class="col-12 col-lg-3 px-5 py-1">
                     <a class="text-decoration-none" href="#top"><button
                             class="btn btn-success bg-green">SUBIR</button></a>
                 </div>
 
-                <div class="col-6 col-md-3 px-5 py-1">
+                <div class="col-6 col-lg-3 px-5 py-1">
                     <ul class="list-unstyled">
                         <li><label><strong>Centros participantes:</strong></label></li>
                         <li> <a href="http://www.ies-azarquiel.es/" class="text-decoration-none text-white">I.E.S
@@ -157,8 +158,7 @@
                         <li> <a href="http://www.iesjuanbosco.es/" class="text-decoration-none text-white">I.E.S Juan
                                 Bosco</a> </li>
                         <li> <a href="http://iesmaestredecalatrava.es/" class="text-decoration-none text-white">I.E.S
-                                Maestre de Calatrava</a>
-                        </li>
+                                Maestre de Calatrava</a></li>
                         <li> <a href="https://cifpvirgendegracia.com/" class="text-decoration-none text-white">C.I.F.P
                                 Vigen de Gracia</a> </li>
                         <li> <a href="http://www.iesgregorioprieto.com/" class="text-decoration-none text-white">I.E.S
@@ -172,18 +172,18 @@
                     </ul>
                 </div>
 
-                <div class="bg-grey col-6 col-md-3 px-5 py-1">
+                <div class="bg-grey col-6 col-lg-3 px-5 py-1">
                     <ul class="list-unstyled">
                         <li> <strong><a href="quienessomos.html" class="text-decoration-none text-white">Quienes
                                     Somos</a></strong> </li>
-                        <li> <strong><a data-bs-toggle="modal" data-bs-target="#modelprivacidad"
-                                    class="text-decoration-none text-white">Privacidad</a></strong></li>
-                        <li> <strong><a data-bs-toggle="modal" data-bs-target="#modalcontacto"
-                                    class="text-decoration-none text-white">Contacto</a> </strong></li>
+                        <li> <strong><div data-bs-toggle="modal" data-bs-target="#modelprivacidad"
+                                    class="text-decoration-none text-white"><a href="#" class="text-decoration-none text-white">Privacidad</a></div></strong></li>
+                        <li> <strong><div data-bs-toggle="modal" data-bs-target="#modalcontacto"
+                                    class="text-decoration-none text-white"><a href="#" class="text-decoration-none text-white">Contacto</a></div> </strong></li>
                     </ul>
                 </div>
 
-                <div class="col-12 col-md-2 px-5 py-1">
+                <div class="col-12 col-lg-3 px-5 py-1">
                     <a class="text-decoration-none" href="index.html"><button
                             class="btn btn-success bg-green">HOME</button></a>
                 </div>
@@ -261,9 +261,9 @@
     <!-- Modal Privacidad-->
     <div class="modal fade" id="modelprivacidad" tabindex="-1" role="dialog" aria-labelledby="modalloginLabel"
         aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-dialog modal-lg position-relative" role="document">
             <div class="modal-content bg-home">
-                <div class="modal-body px-3">
+                <div class="modal-body px-5">
                     <span class="fs-5 fw-bold">Privacidad</span>
                     <h2 class="modal-title text-center mt-3 mb-2">Términos y Condiciones de uso</h2>
                     <ol class="mx-1">
@@ -438,6 +438,7 @@
                             eficaz su transmisión ulterior. En ningún caso se utilizará cookies para recoger información
                             de carácter personal.</p>
                     </ol>
+                    <button type="button" class="btn btn-primary position-absolute end-0 translate-middle-y mb-2 me-2">Aceptar</button>
                 </div>
             </div>
         </div>
@@ -462,7 +463,7 @@
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputComentario" class="form-label">Tu comentario</label>
-                            <input size=10 type="text" class="form-control" id="exampleInputComentario">
+                            <textarea cols="10" rows="7" class="form-control" id="exampleInputComentario"></textarea>
                         </div>
                         <button type="submit" class="btn btn-success w-100">Entrar</button>
                     </form>
