@@ -20,7 +20,7 @@
     <header>
         <div class="container-fluid p-0">
             <nav class="navbar navbar-expand-md navbar-light bg-menu">
-                <a class="navbar-brand p-0 " href="#"><img src="logos/logo.png" alt="" class="img-fluid" width="100px"></a>
+                <a class="navbar-brand p-0 " href="index.html"><img src="logos/logo.png" alt="" class="img-fluid" width="100px"></a>
                 <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -29,10 +29,10 @@
                 <div class="collapse navbar-collapse" id="collapsibleNavId">
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Inicio</a>
+                            <a class="nav-link text-black" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" role="button"
+                            <a class="nav-link dropdown-toggle text-black" href="#" id="dropdownId" role="button"
                                 data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Selecciona
                                 Categoría</a>
                             <div class="dropdown-menu" aria-labelledby="dropdownId">
@@ -44,11 +44,12 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#modalregistro">Registrate</a>
+                            <div class="nav-link cursor-pointer" data-bs-toggle="modal" data-bs-target="#modalregistro"> <a href="#" class="text-decoration-none text-black">Registrate</a></div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#modallogin">Inicia
-                                sesión</a>
+                            <div class="nav-link cursor-pointer" data-bs-toggle="modal" data-bs-target="#modallogin">
+                                <a href="#" class="text-decoration-none text-black">Inicia
+                                    sesión</a></div>
                         </li>
                     </ul>
                 </div>
@@ -57,7 +58,7 @@
     </header>
     <main>
         <div class="text-center">
-            <h1>Catálogo de animales</h1>
+            <h1 class="mt-5 mb-3">Catálogo de animales</h1>
             <h2>Reptiles. Econtrados: 4</h2>
         </div>
         <div class="container-md">
@@ -80,18 +81,16 @@
                 </div>
             </div>
         </div>
-        <section class="container">
+        <div class="container text-center my-5">
+            <h2>Culebra Bastarda</h2>
+        </div>
+        <section class="container bg-lightBlue my-5 px-5 py-2">
             <div class="text-center my-4">
-                <h2>Culebra Bastarda</h2>
             </div>
             <div class="row">
                 <div class="table-responsive col-lg-4">
-                    <table class="table table-primary table-striped">
-                        <thead>
-                            <tr>
-                                <th colspan="3" scope="col" class="fs-1">Taxonomía</th>
-                            </tr>
-                        </thead>
+                    <caption><h2>Taxonomía</h2></caption>
+                    <table class="table table-primary table-striped bg-lightBlue">
                         <tbody>
                             <tr class="">
                                 <td scope="row">Reino:</td>
@@ -151,21 +150,20 @@
 
             <div class="row align-content-center justify-content-center">
 
-                <div class="col-12 col-md-2 px-5 py-1">
+                <div class="col-12 col-lg-3 px-5 py-1">
                     <a class="text-decoration-none" href="#top"><button
                             class="btn btn-success bg-green">SUBIR</button></a>
                 </div>
 
-                <div class="col-6 col-md-3 px-5 py-1">
-                    <ul class="list-unstyled">
+                <div class="col-12 col-md-6 col-lg-3 px-5 py-1">
+                    <ul class="list-unstyled mb-3">
                         <li><label><strong>Centros participantes:</strong></label></li>
                         <li> <a href="http://www.ies-azarquiel.es/" class="text-decoration-none text-white">I.E.S
                                 Azarquiel</a> </li>
                         <li> <a href="http://www.iesjuanbosco.es/" class="text-decoration-none text-white">I.E.S Juan
                                 Bosco</a> </li>
                         <li> <a href="http://iesmaestredecalatrava.es/" class="text-decoration-none text-white">I.E.S
-                                Maestre de Calatrava</a>
-                        </li>
+                                Maestre de Calatrava</a></li>
                         <li> <a href="https://cifpvirgendegracia.com/" class="text-decoration-none text-white">C.I.F.P
                                 Vigen de Gracia</a> </li>
                         <li> <a href="http://www.iesgregorioprieto.com/" class="text-decoration-none text-white">I.E.S
@@ -179,18 +177,18 @@
                     </ul>
                 </div>
 
-                <div class="bg-grey col-6 col-md-3 px-5 py-1">
+                <div class="bg-grey col-12 col-md-6 col-lg-3 px-5 py-1">
                     <ul class="list-unstyled">
                         <li> <strong><a href="quienessomos.html" class="text-decoration-none text-white">Quienes
                                     Somos</a></strong> </li>
-                        <li> <strong><a data-bs-toggle="modal" data-bs-target="#modelprivacidad"
-                                    class="text-decoration-none text-white">Privacidad</a></strong></li>
-                        <li> <strong><a data-bs-toggle="modal" data-bs-target="#modalcontacto"
-                                    class="text-decoration-none text-white">Contacto</a> </strong></li>
+                        <li> <strong><div data-bs-toggle="modal" data-bs-target="#modelprivacidad"
+                                    class="text-decoration-none text-white"><a href="#" class="text-decoration-none text-white">Privacidad</a></div></strong></li>
+                        <li> <strong><div data-bs-toggle="modal" data-bs-target="#modalcontacto"
+                                    class="text-decoration-none text-white"><a href="#" class="text-decoration-none text-white">Contacto</a></div> </strong></li>
                     </ul>
                 </div>
 
-                <div class="col-12 col-md-2 px-5 py-1">
+                <div class="col-12 col-lg-3 px-5 py-1">
                     <a class="text-decoration-none" href="index.html"><button
                             class="btn btn-success bg-green">HOME</button></a>
                 </div>
@@ -234,7 +232,7 @@
                             <label for="telefono" class="form-label">Teléfono</label>
                             <input type="tel" class="form-control" name="telefono" id="telefono">
                         </div>
-                        <button type="submit" class="btn btn-success w-100">Registrarse</button>
+                        <button type="button" class="btn btn-success w-100" data-bs-dismiss="modal">Registrarse</button>
                     </form>
                 </div>
             </div>
@@ -258,7 +256,7 @@
                             <label for="exampleInputPassword1" class="form-label">Contraseña</label>
                             <input type="password" class="form-control" id="exampleInputPassword1">
                         </div>
-                        <button type="submit" class="btn btn-success w-100">Entrar</button>
+                        <button type="button" class="btn btn-success w-100" data-bs-dismiss="modal">Entrar</button>
                     </form>
                 </div>
             </div>
@@ -268,9 +266,9 @@
     <!-- Modal Privacidad-->
     <div class="modal fade" id="modelprivacidad" tabindex="-1" role="dialog" aria-labelledby="modalloginLabel"
         aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-dialog modal-lg pb-5" role="document">
             <div class="modal-content bg-home">
-                <div class="modal-body px-3">
+                <div class="modal-body px-5">
                     <span class="fs-5 fw-bold">Privacidad</span>
                     <h2 class="modal-title text-center mt-3 mb-2">Términos y Condiciones de uso</h2>
                     <ol class="mx-1">
@@ -445,6 +443,9 @@
                             eficaz su transmisión ulterior. En ningún caso se utilizará cookies para recoger información
                             de carácter personal.</p>
                     </ol>
+                    <div class="text-end mb-3">
+                        <button type="button" class="btn btn-success" data-bs-dismiss="modal" aria-label="Close">Aceptar</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -469,9 +470,9 @@
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputComentario" class="form-label">Tu comentario</label>
-                            <input size=10 type="text" class="form-control" id="exampleInputComentario">
+                            <textarea cols="10" rows="7" class="form-control" id="exampleInputComentario"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-success w-100">Entrar</button>
+                        <button type="button" class="btn btn-success w-100" data-bs-dismiss="modal">Entrar</button>
                     </form>
                 </div>
             </div>

@@ -1,4 +1,0 @@
-1. Footer en "reptiles.html"
-2. Numeros de lista en el carrusel del "index.html".
-3. Hacer más grande el cuadrado de input de "tu comentario" en la ventana modal "contacto".
-4. Arregrar enlace de referencia a la pagina "quienesSomos.html" cambiando la mayuscula a miniscula
